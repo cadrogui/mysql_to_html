@@ -1,0 +1,22 @@
+{
+  "name": "autogenerate-sequelize-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mikel carozzi <cadrogui@gmail.com> (http://www.mikelcarozzi.cl)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "mysql": "^2.15.0",
+    "mysql-utilities": "^1.0.10",
+    "prompt": "^1.0.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {},
+  "description": "auto generate html views from mysql database"
+}

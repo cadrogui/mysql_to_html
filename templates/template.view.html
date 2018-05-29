@@ -1,0 +1,46 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+  <div class="col-lg-10">
+    <h2><%= model %></h2>
+    <ol class="breadcrumb">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li class="active">
+        <strong> <%= model %> </strong>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+        <div class="tabs-container">
+
+          <tabset>
+
+            <tab>
+              <tab-heading>
+                <i class="fa fa-briefcase"></i>
+                Mantenedor
+              </tab-heading>
+
+              <div ui-view="mantenedor"></div>
+
+            </tab>
+
+            <tab>
+
+              <tab-heading>
+                <i class="fa fa-bars"></i>
+                Listado
+              </tab-heading>
+
+              <div ui-view="list"></div>
+
+            </tab>
+          </tabset>
+        </div>
+    </div>
+  </div>
+</div>
