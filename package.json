@@ -5,6 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "mysq-html": "./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadrogui/mysql_to_html.git"
+  },
   "keywords": [],
   "author": "Mikel carozzi <cadrogui@gmail.com> (http://www.mikelcarozzi.cl)",
   "license": "ISC",
